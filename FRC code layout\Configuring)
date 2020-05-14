@@ -1,0 +1,16 @@
+# Configures the robot as an object
+class MyRobot(wpilib.TimedRobot):
+		
+	# Begins robot initiation phase, meaning it's a perfect section for Functions that should only be called once
+	def robotInit(self):
+		
+		# An example of some content that will included here is Motor and Sensor Configurations
+	
+	# Begins autonomous configuration, is called once when autonomous period begins
+	def autonomousInit(self):
+		
+		# Here we would configure funtions relevent to the autonomous period
+	
+	# Autonomous Period code section that is called upon rapidly
+	def autonomousPeriodic(self):
+	
