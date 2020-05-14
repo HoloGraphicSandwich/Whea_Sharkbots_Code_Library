@@ -1,0 +1,6 @@
+        # This configures the color sensor
+        self.colorSensor = ColorSensorV3(wpilib.I2C.Port.kOnboard)
+        # This defines the color matching prosses
+        self.colormatcher = ColorMatch()
+        # This defines the how confident in the chosen color the matcher must be
+        self.colormatcher.setConfidenceThreshold(0.95)
